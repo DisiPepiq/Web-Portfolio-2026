@@ -10,7 +10,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
-
+import dublinImg from './assets/images/Dublin.webp';
+import progImg from './assets/images/programming.png';
+import net from './assets/images/1net.png';
+import project1 from './assets/images/p1.png';
+import project2 from './assets/images/php.png';
+import project3 from './assets/images/g1.png';
+import project4 from './assets/images/data1.png';
 
 
 
@@ -84,7 +90,7 @@ function App() {
               <Card.Title className="project-title">Eduaction</Card.Title>
               <Card.Img
                 variant="top"
-                src="src/assets/images/Dublin.webp"
+                src={dublinImg}
                 style={{ width: "85%", height: "auto", margin: "0 auto"}}
               />
               <Card.Body className="d-flex flex-column">
@@ -104,7 +110,7 @@ function App() {
               <Card.Title className="project-title">IT Skills</Card.Title>
               <Card.Img
                 variant="top"
-                src="src/assets/images/programming.png"
+                src={progImg}
 
               />
               <Card.Body className="d-flex flex-column">
@@ -147,7 +153,7 @@ function App() {
             <Card className="work-card">
               <Card.Img
                 variant="top"
-                src="src/assets/images/1net.png"
+                src={net}
                 style={{ boxShadow: "0 6px 20px rgba(0, 0, 0, 0.25)" }}
               />
               <Card.Body>
@@ -187,7 +193,7 @@ groups via BeyondTrust remote access.</li>
             <Card className="projects-card h-100">
               <Card.Img
                 variant="top"
-                src="src/assets/images/p1.png"
+                src={project1}
               />
                <Card.Body className="d-flex flex-column">
                 <Card.Title className="project-title">4th year final project</Card.Title>
@@ -233,7 +239,7 @@ groups via BeyondTrust remote access.</li>
             <Card className="projects-card h-100">
               <Card.Img
                 variant="top"
-                src="src/assets/images/php.png"
+                src={project2}
               />
                <Card.Body className="d-flex flex-column">
                 <Card.Title className="project-title">Online shopping CRUD project</Card.Title>
@@ -273,7 +279,7 @@ groups via BeyondTrust remote access.</li>
             <Card className="projects-card h-100">
               <Card.Img
                 variant="top"
-                src="src/assets/images/g1.png"
+                src={project3}
               />
               <Card.Body className="d-flex flex-column">
                 <Card.Title className="project-title">Unity Game assignment</Card.Title>
@@ -307,7 +313,7 @@ groups via BeyondTrust remote access.</li>
             <Card className="projects-card h-100">
               <Card.Img
                 variant="top"
-                src="src/assets/images/data1.png"
+                src={project4}
               />
               <Card.Body className="d-flex flex-column">
                 <Card.Title className="project-title">4th year Data Analysis Assignment</Card.Title>
