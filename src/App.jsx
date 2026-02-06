@@ -39,7 +39,7 @@ function App() {
         <i className="bi bi-linkedin"></i>
       </a>
       <a
-        href="https://github.com/DisiPepiq"
+        href="https://github.com/disipepiq"
         target="_blank"
         rel="noopener noreferrer"
         className="fs-4 social-icon"
